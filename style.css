@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Joan', serif;
+}
+.fox-news{
+    background-color: #F8F4EB;
+}
+.fox-news .container{
+    width: 90%;
+    margin: auto;
+}
+.fox-news .container nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 7px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.fox-news .container nav .logo img{
+    height: 60px;
+}
+.fox-news .container nav .contact{
+    width: 330px;
+}
+.fox-news .container nav .login{
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fox-news .container nav .login a{
+    color: #020100;
+    text-decoration: none;
+}
+.fox-news .container nav .login .for-price{
+    background-color: #020100;
+    color: white;
+    padding: 3px;
+
+}
+.fox-news .container nav .login .for-price a{
+    color: white;
+}
+.fox-news .container .title{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fox-news .container .title h2{
+    position: relative;
+
+}
+.fox-news .container .title h2::before{
+    content: "";
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: -5px;
+    background-color: #020100;
+}
+/* Mobile */
+@media (max-width:767px){
+    .fox-news .container nav{
+        width: calc(100%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .fox-news .container nav .logo{
+        width: 150px;
+    }
+    .fox-news .container nav .contact{
+        margin-bottom: 20px;
+        width: 280px;
+        font-size: 14px;
+    }
+    .fox-news .container{
+        width: 100%;
+    }
+}
+
+/* ********************************************************** */
+.fox-news .container .center{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+}
+/* ************************************************************************* */
+.fox-news .container .center .first-left{
+    width: 250px;
+    border-right: 1px solid;
+}
+.fox-news .container .center .first-left h2{
+    font-size: 24px;
+}
+.fox-news .container .center .first-left p{
+    color: rgba(0, 0, 0, 0.751);
+    font-size: 14px;
+}
+ .reporter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 160px;
+}
+ .reporter .img{
+    width: 60px;
+    height: 60px;
+    border-radius: 9px;
+    background-color: #020100;
+}
+ .reporter .img img{
+    width: 100%;
+    border-radius: 5px;
+}
+.line{
+    width: 96%;
+    height: 2px;
+    background-color: #02010090;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.fox-news .container .center .first-left  h3{
+    font-size: 20px;
+}
+/* *********james************************************************** */
+.fox-news .container .center .james{
+    width: 500px;
+    padding-right: 12px;
+    border-right: 1px solid;
+}
+.fox-news .container .center .james img{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 20px;
+}
+.fox-news .container .center .james p {
+    font-size: 15px;
+    color: #020100c8;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.fox-news .container .center .james .reporter img{
+    height: 100%;
+}
+/* ********happier*************************************************** */
+.fox-news .container .center .happier{
+    width: 250px;
+    border-right: 1px solid;
+    padding-right: 12px;
+}
+.fox-news .container .center .happier img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.fox-news .container .center .happier{
+    color: #020100c8;
+}
+/* ********traveller*************************************************** */
+.fox-news .container .center .traveller{
+    width: 250px;
+}
+.fox-news .container .center .traveller h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.fox-news .container .center .traveller p{
+    line-height: 1.3;
+    color: #020100c8;
+}
+.fox-news .container .center .traveller .reporter{
+    margin-top: 10px;
+}
+.fox-news .container .center .traveller p{
+    margin-bottom: 12px;
+}
+.fox-news .container .center .traveller i{
+    margin-right: 12px;
+    font-size: 24px;
+}
+.fox-news .container .center .traveller .youtube{
+    display: flex;
+    margin-bottom: 18px;
+    align-items: center;
+    margin-top: 18px;
+}
+.fox-news .container .center .traveller .youtube .box{
+    width: 150px;
+    height: 5px;
+    background-color: #02010049;
+    margin-right: 7px;
+    border-radius: 3px;
+}
+.fox-news .container .center .traveller .youtube .box1{
+    width: 50px;
+    height: 5px;
+    background-color: #F6996D;
+    border-radius: 3px;
+
+}
+/* Mobile */
+@media (max-width:767px){
+    .fox-news .container .center .first-left{
+        width: calc(800px);
+        text-align: center;
+        margin-bottom: 120px;
+        border-top: 1px solid;
+        padding-top: 15px;
+    }
+    .fox-news .container .center .james{
+        width: calc(800px);
+        text-align: center;
+        margin-bottom: 168px;
+        border-top: 1px solid;
+        padding-top: 15px; 
+    }
+    .fox-news .container .center .happier{
+        width: calc(800px);
+        text-align: center;
+        margin-bottom: 120px;
+        border-top: 1px solid;
+        padding-top: 15px; 
+    }
+    .fox-news .container .center .traveller{
+        width: calc(800px);
+        text-align: center;
+        margin-bottom: 120px; 
+        border-top: 1px solid;
+        padding-top: 15px;
+        border-right: 1px solid;
+    }
+}
+
+/* Smali Screens */
+@media (min-width:768px){
+    .fox-news .container .center .first-left{
+        width: calc(30%);
+        text-align: left;
+        margin-bottom: 120px;
+        border-top: 1px solid;
+        padding-top: 15px;
+    }
+    .fox-news .container .center .james{
+        width: calc(60%);
+        text-align: left;
+        margin-bottom: 120px;
+        border-top: 1px solid;
+        padding-top: 15px; 
+    }
+    .fox-news .container .center .happier{
+        width: calc(50% - 100px);
+        text-align: left;
+        margin-bottom: 120px;
+        border-top: 1px solid;
+        padding-top: 15px; 
+    }
+    .fox-news .container .center .traveller{
+        width: calc(50% - 100px);
+        text-align: left;
+        margin-bottom: 120px; 
+        border-top: 1px solid;
+        padding-top: 15px;
+        border-right: 1px solid;
+    }
+}
+
+/* Medium Screens */
+@media (min-width:992px){
+    .fox-news .container .center .first-left{
+        width: calc(250px);
+        text-align: left;
+        margin-bottom: 0px;
+        border-top: none;
+        padding-top: 15px;
+    }
+    .fox-news .container .center .james{
+        width: calc(500px);
+        text-align: left;
+        margin-bottom: 0px;
+        border-top: none;
+        padding-top: 15px; 
+    }
+    .fox-news .container .center .happier{
+        width: calc(250px);
+        text-align: left;
+        margin-bottom: 0px;
+        border-top: none;
+        padding-top: 15px; 
+    }
+    .fox-news .container .center .traveller{
+        width: calc(250px);
+        text-align: left;
+        margin-bottom: 0px; 
+        border-top:none;
+        padding-top: 15px;
+        border-right: none;
+    }
+}
+
+/*large Screens */
+@media (min-width:1200px){
+
+}
